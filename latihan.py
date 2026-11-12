@@ -289,3 +289,19 @@ class Ketua(Siswa):
 ketua = Ketua("Rizqi", "XI RPL")
 ketua.perkenalan()
 ketua.tugas()
+
+
+
+
+
+# Bab 9: PIP dan Virtual Environments
+# Perintah yang dipelajari:
+# python -m venv venv        -> membuat virtual environment
+# venv\Scripts\activate      -> mengaktifkan virtual environment
+# pip install requests       -> memasang library
+# pip list                   -> melihat library terpasang
+# pip freeze                 -> melihat daftar library beserta versinya
+
+import requests
+
+print("Versi requests:", requests.__version__)
