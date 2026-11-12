@@ -148,3 +148,32 @@ elif nilai >= 70:
     print("Grade C")
 else:
     print("Grade D")
+
+
+
+
+
+# Bab 5: Perulangan
+
+# For loop dengan range
+for i in range(5):
+    print("For loop ke-", i)
+
+# For loop pada list
+buah = ["apel", "jeruk", "mangga"]
+for item in buah:
+    print(item)
+
+# While loop
+angka = 1
+while angka <= 5:
+    print("While loop ke-", angka)
+    angka += 1
+
+# Break dan continue
+for i in range(1, 8):
+    if i == 3:
+        continue
+    if i == 6:
+        break
+    print(i)
