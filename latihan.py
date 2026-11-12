@@ -177,3 +177,35 @@ for i in range(1, 8):
     if i == 6:
         break
     print(i)
+
+
+
+
+# Bab 6: Lists dan Dictionaries
+
+# List
+buah = ["apel", "jeruk", "mangga"]
+print(buah)
+print(buah[0])
+
+buah.append("pisang")
+buah.remove("jeruk")
+print(buah)
+print(len(buah))
+
+# Dictionary
+siswa = {
+    "nama": "Amanda",
+    "kelas": "XI RPL",
+    "umur": 16
+}
+print(siswa)
+print(siswa["nama"])
+
+siswa["jurusan"] = "RPL"
+siswa["umur"] = 17
+print(siswa)
+
+# Perulangan pada dictionary
+for key, value in siswa.items():
+    print(key, ":", value)
