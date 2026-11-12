@@ -246,3 +246,46 @@ def sapa_semua(*names):
         print("Halo,", name)
 
 sapa_semua("Rizqi", "Fika", "Yudi")
+
+
+
+
+
+
+
+
+
+# Bab 8: Class dan Object
+
+# Membuat class
+class Siswa:
+    # Attribute class
+    sekolah = "SMKN 2 Subang"
+
+    # Constructor
+    def __init__(self, nama, kelas):
+        self.nama = nama
+        self.kelas = kelas
+
+    # Method
+    def perkenalan(self):
+        print("Halo, nama saya %s dari kelas %s" % (self.nama, self.kelas))
+
+# Membuat object dari class
+siswa1 = Siswa("Amanda", "XI RPL")
+siswa2 = Siswa("Fika", "XI RPL")
+
+# Mengakses attribute dan method
+print(siswa1.nama)
+print(siswa1.sekolah)
+siswa1.perkenalan()
+siswa2.perkenalan()
+
+# Inheritance
+class Ketua(Siswa):
+    def tugas(self):
+        print(self.nama, "bertugas memimpin kelas")
+
+ketua = Ketua("Rizqi", "XI RPL")
+ketua.perkenalan()
+ketua.tugas()
