@@ -209,3 +209,40 @@ print(siswa)
 # Perulangan pada dictionary
 for key, value in siswa.items():
     print(key, ":", value)
+
+
+
+
+
+
+
+# Bab 7: Function
+
+# Function tanpa parameter
+def sapa():
+    print("Halo, selamat belajar Python!")
+
+sapa()
+
+# Function dengan parameter
+def belajar_python(name, age):
+    print("Halo, Saya %s. Umur saya %d" % (name, age))
+
+belajar_python("Amanda", 16)
+
+# Function dengan keyword arguments
+belajar_python(age=17, name="Fika")
+
+# Function dengan return value
+def tambah(a, b):
+    return a + b
+
+hasil = tambah(5, 3)
+print(hasil)
+
+# Function dengan arbitrary arguments
+def sapa_semua(*names):
+    for name in names:
+        print("Halo,", name)
+
+sapa_semua("Rizqi", "Fika", "Yudi")
