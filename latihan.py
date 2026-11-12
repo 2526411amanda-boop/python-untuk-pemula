@@ -122,3 +122,29 @@ print(a > 5 or b < 6) # False
 # Contoh Penggunaan "not"
 print(not(a < 5 or b > 6)) # False
 print(not(a > 5 or b < 6)) # True
+
+
+
+
+# Bab 4: Kondisi If Else
+nilai = 80
+
+# If
+if nilai >= 75:
+    print("Lulus")
+
+# If Else
+if nilai >= 90:
+    print("Sangat baik")
+else:
+    print("Cukup baik")
+
+# If Elif Else
+if nilai >= 90:
+    print("Grade A")
+elif nilai >= 80:
+    print("Grade B")
+elif nilai >= 70:
+    print("Grade C")
+else:
+    print("Grade D")
