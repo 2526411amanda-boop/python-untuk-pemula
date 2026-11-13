@@ -19,17 +19,17 @@ print("Versi Python:", sys.version)
 # beberapa baris (docstring)
 # """
 
-# # Menampilkan output dengan print()
-# print("Halo, Python!")
-# print("Belajar", "Python", "Dasar", sep=" - ")
+# Menampilkan output dengan print()
+print("Halo, Python!")
+print("Belajar", "Python", "Dasar", sep=" - ")
 
-# # Indentasi menentukan blok kode
-# if True:
-#     print("Indentasi itu penting")
+# Indentasi menentukan blok kode
+if True:
+    print("Indentasi itu penting")
 
-# # Meminta input dari pengguna
-# # nama = input("Siapa namamu? ")
-# # print("Halo,", nama)
+# Meminta input dari pengguna
+# nama = input("Siapa namamu? ")
+# print("Halo,", nama)
 
 
 
